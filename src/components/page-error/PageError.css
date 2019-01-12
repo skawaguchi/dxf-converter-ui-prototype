@@ -1,0 +1,11 @@
+@value errorText from '../../styles/Theme.css';
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container p {
+    color: errorText;
+    font-size: 1.5em;
+}

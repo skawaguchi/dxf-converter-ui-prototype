@@ -1,0 +1,5 @@
+@value headerFont from '../../styles/Theme.css';
+
+.container h2 {
+    font-family: headerFont;
+}

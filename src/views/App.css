@@ -1,0 +1,30 @@
+@value bodyFont, titleFont, titleText, primaryText from '../styles/Theme.css';
+
+.appMain {
+    margin: 20px 20px 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: titleText;
+    font-family: titleFont;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+p {
+    color: primaryText;
+    font-family: bodyFont;
+    font-size: 1.25rem;
+    line-height: 3rem;
+}

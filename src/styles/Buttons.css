@@ -1,0 +1,63 @@
+@value primary, primaryHover, primaryText, bodyFontBold, secondary, secondaryHover, secondaryText from './Theme.css';
+
+.buttonCore {
+    border-width: 0;
+    cursor: pointer;
+    font-family: bodyFontBold;
+    font-size: 1.35rem;
+    padding: 0.5rem 1rem;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+}
+
+.primaryButtonCore {
+    background-color: primary;
+    color: primaryText;
+}
+
+.primaryButton {
+    composes: primaryButtonCore;
+    composes: buttonCore;
+}
+
+.primaryButton:hover {
+    background-color: primaryHover;
+}
+
+.secondaryButtonCore {
+    background-color: secondary;
+    color: secondaryText;
+}
+
+.secondaryButton {
+    composes: secondaryButtonCore;
+    composes: buttonCore;
+}
+
+.secondaryButton:hover {
+    background-color: secondaryHover;
+}
+
+.smallButtonCore {
+    composes: buttonCore;
+    font-size: 1rem;
+    padding: 0.35rem 0.7rem;
+}
+
+.primaryReducedButton {
+    composes: primaryButtonCore;
+    composes: smallButtonCore;
+}
+
+.primaryReducedButton:hover {
+    background-color: primaryHover;
+}
+
+.secondaryReducedButton {
+    composes: secondaryButtonCore;
+    composes: smallButtonCore;
+}
+
+.secondaryReducedButton:hover {
+    background-color: secondaryHover;
+}

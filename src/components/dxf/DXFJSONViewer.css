@@ -1,0 +1,8 @@
+@value jsonOutput from '../../styles/Theme.css';
+
+.container {
+    color: jsonOutput;
+    display: flex;
+    max-width: 300px;
+    white-space: pre-wrap;
+}

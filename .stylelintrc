@@ -1,0 +1,16 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+        "at-rule-no-unknown": null,
+        "at-rule-empty-line-before": null,
+        "font-family-no-missing-generic-family-keyword": null,
+        "property-no-unknown": [
+            true, {
+                "ignoreProperties": [
+                    "composes"
+                ]
+            }
+        ],
+        "indentation": 4
+    }
+}

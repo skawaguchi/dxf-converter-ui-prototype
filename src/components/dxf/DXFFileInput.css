@@ -1,0 +1,7 @@
+.container input {
+    display: none;
+}
+
+.container > div {
+    float: left;
+}

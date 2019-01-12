@@ -1,0 +1,23 @@
+{
+    "dxf": {
+        "blockSelectionsHeader": "Blocks",
+        "downloadJSONButton": "Download JSON",
+        "dxfButton": "Choose a DXF File",
+        "dxfError": "The file you tried to upload was not a valid DXF file. Please upload a DXF file to continue.",
+        "intro": "This tool converts DXF Files to a custom JSON format and then to SVG in order to display the contents. Just click \"Choose a DXF File\" to get started. Name your file and click \"Download JSON\" to download your modified floor plan data in JSON format.",
+        "layerSelectionsHeader": "Layers",
+        "nonBlockEntitiesCheckbox": "Non-Block Entities",
+        "nonBlockEntitiesSelectionsHeader": "Non-Block Entities",
+        "outputJSONButton": "Output (JSON)",
+        "rawTextButtonHide": "Hide Raw Text",
+        "rawTextButtonShow": "Show Raw Text",
+        "rawTextPlaceholder": "The raw DXF text will be displayed here",
+        "saveFileButton": "Save File",
+        "sourceJSONButton": "Source Code (JSON)",
+        "sourceTabLabel": "Select DXF Selection View Type",
+        "svgButton": "Floorplan (SVG)",
+        "title": "DXF File Converter",
+        "titleInputLabel": "JSON Output Filename",
+        "titleInputPlaceholder": "Enter a name for the output JSON file"
+    }
+}

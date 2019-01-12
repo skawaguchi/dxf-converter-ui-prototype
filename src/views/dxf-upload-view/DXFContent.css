@@ -1,0 +1,13 @@
+@value componentMargin from '../../styles/Theme.css';
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: componentMargin;
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Fira Mono Regular';
+    src: url('./fonts/Fira_Mono/FiraMono-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Fira Mono Medium';
+    src: url('./fonts/Fira_Mono/FiraMono-Medium.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Fira Mono Bold';
+    src: url('./fonts/Fira_Mono/FiraMono-Bold.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Pathway Gothic One';
+    src: url('./fonts/Pathway_Gothic_One/PathwayGothicOne-Regular.ttf')  format('truetype');
+}
+
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}

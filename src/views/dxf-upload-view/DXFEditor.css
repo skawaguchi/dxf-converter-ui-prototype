@@ -1,0 +1,10 @@
+@value gutter from '../../styles/Theme.css';
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container [data-hook="save-file-button"] {
+    margin-top: gutter;
+}

@@ -1,0 +1,72 @@
+@value bodyFont, primaryText, primary, primaryTextHover from '../../styles/Theme.css';
+
+.indeterminateContainer,
+.container {
+    cursor: pointer;
+}
+
+.indeterminateContainer label,
+.container label {
+    color: primaryText;
+    cursor: pointer;
+    display: inline-block;
+    font-family: bodyFont;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    padding-left: 35px;
+    position: relative;
+    transition-duration: 0.3s;
+    transition-property: color;
+}
+
+.indeterminateContainer:hover label,
+.container:hover label {
+    color: primaryTextHover;
+}
+
+.indeterminateContainer input[type="checkbox"],
+.container input[type="checkbox"] {
+    display: none;
+}
+
+.indeterminateContainer label::before,
+.indeterminateContainer label::after,
+.container label::before,
+.container label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+}
+
+.indeterminateContainer label::before {
+    border: 1px solid;
+    height: 8px;
+    left: 0;
+    top: 3px;
+    width: 8px;
+}
+
+.container label::before {
+    border: 1px solid;
+    height: 20px;
+    left: 0;
+    top: 3px;
+    width: 20px;
+}
+
+.indeterminateContainer input[type="checkbox"]:checked + label::before {
+    background-color: primary;
+    background-clip: content-box;
+    padding: 6px;
+}
+
+.container input[type="checkbox"]:checked + label::before {
+    background-color: primary;
+}
+
+.indeterminateContainer input[type="checkbox"]:focus + label::before,
+.container input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}

@@ -1,0 +1,19 @@
+.container {
+    background: transparent;
+    height: calc(100vh - 200px);
+    width: calc(100vw - 400px);
+}
+
+svg > * {
+    fill: none;
+    stroke: #fff;
+}
+
+svg g {
+    transition: 0.3s all;
+}
+
+/* stylelint-disable selector-pseudo-class-no-unknown */
+svg :global(.color-250) {
+    stroke: #333;
+}

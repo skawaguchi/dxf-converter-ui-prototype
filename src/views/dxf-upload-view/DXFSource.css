@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dockedContainer {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: calc(100vw - 400px);
+}

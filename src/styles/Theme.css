@@ -1,0 +1,30 @@
+@value burningOrange: #e96551;
+@value darkGrey: #444;
+@value lightGrey: #e1e1e1;
+@value white: #fff;
+
+@value titleFont: 'Pathway Gothic One', sans-serif;
+@value bodyFont: 'Fira Mono', monospace;
+@value bodyFontBold: 'Fira Mono Bold', monospace;
+
+@value gutter: 10px;
+@value outsizePadding: 20px;
+@value componentMargin: 20px;
+
+@value appBackground: darkGrey;
+@value primary: burningOrange;
+@value primaryHover: #b6503f;
+@value primaryText: white;
+@value primaryTextHover: burningOrange;
+@value secondary: #e1e1e1;
+@value secondaryHover: #9B9B9B;
+@value secondaryText: #333;
+@value errorText: burningOrange;
+@value inputFontSize: 1.2rem;
+@value inputLabel: burningOrange;
+@value inputText: darkGrey;
+@value inputPadding: 5px;
+@value inputBorder: lightGrey;
+@value jsonOutput: white;
+@value titleText: #e96551;
+@value headerFont: bodyFont;

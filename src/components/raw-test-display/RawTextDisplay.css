@@ -1,0 +1,17 @@
+@value primaryText from '../../styles/Theme.css';
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container textarea {
+    background-color: transparent;
+    border-width: 0;
+    color: primaryText;
+    font-family: Courier, monospace;
+    font-size: 0.75rem;
+    padding: 10px;
+    resize: none;
+}
+

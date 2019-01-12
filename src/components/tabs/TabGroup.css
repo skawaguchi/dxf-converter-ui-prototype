@@ -1,0 +1,7 @@
+@value componentMargin from '../../styles/Theme.css';
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: componentMargin;
+}
